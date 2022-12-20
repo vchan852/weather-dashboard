@@ -18,7 +18,7 @@ This app was built with HTML, CSS to polish it up and Javascript. We pulled from
 
 https://vchan852.github.io/weather-dashboard/
 
-https://github.com/vchan852/weather-app
+https://github.com/vchan852/weather-dashboard
 
 ## Application Preview
 ![Website Preview](Assets/images/webpreview.png)
