@@ -15,6 +15,24 @@
     <header class="container-fluid text-center text-white bg-dark p-2" id="header">
         <h1>Weather Dashboard</h1>
     </header>
+
+    <!-- user input of city search on left hand side -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 bg-light">
+                <h5 class="mt-1">Search for a City:</h5>
+                <div class="input-group mb-3">
+                    <input id="enter-city" type="text" class="form-control" placeholder="City Name" aria-label="City Name">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="search-button">Search City
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <button class="btn btn-primary mb-3" type="button" id="clear-history">Clear Search History</button>
+                <form id="history"></form>
+            </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
